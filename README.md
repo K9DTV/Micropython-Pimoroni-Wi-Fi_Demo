@@ -1,12 +1,15 @@
 # Micropython-Pimoroni-Wi-Fi_Demo
 
 [![Compile](https://github.com/K9DTV/Micropython-Pimoroni-Wi-Fi_Demo/actions/workflows/compile.yml/badge.svg)](https://github.com/K9DTV/Micropython-Pimoroni-Wi-Fi_Demo/actions/workflows/compile.yml)
+[![Release](https://img.shields.io/github/v/release/K9DTV/Micropython-Pimoroni-Wi-Fi_Demo)](https://github.com/K9DTV/Micropython-Pimoroni-Wi-Fi_Demo/releases/latest)
+
+**Status:** Final release **v1.0.0** — project closed out.
 
 **Project page:** https://k9dtv.com/project-pico-wifi.html
 
-Testing out some basic wifi on the rp pico 2 W using Pimoroni micropython
+Basic Wi-Fi demo on the RP Pico 2 W using Pimoroni MicroPython.
 
-This project uses the following items;
+This project uses the following items:
 
 (1) RP Pico 2 W					(pishop.us)
 
@@ -21,10 +24,10 @@ This project uses the following items;
 ![20250214_144243](https://github.com/user-attachments/assets/a494b83a-1509-4828-83d3-ab63bf2453a1)
 
 
-Other products may work as well as other supplers (YMMV)
+Other products may work as well as other suppliers (YMMV).
 
-Put your ssid and password in secrets.py
-load the following on to the pico local directory using Thonny (or any other program that works):
+Put your SSID and password in secrets.py.
+Load the following onto the Pico local directory using Thonny (or any other program that works):
 
 secrets.py
 
@@ -36,10 +39,10 @@ pico_on.jpg
 
 Run main.py
 
-The display and Thonny console should show you the local IP of the pico's web server.
-Paste this address in a web broswer address bar and hit enter.
+The display and Thonny console should show you the local IP of the Pico's web server.
+Paste this address in a web browser address bar and hit enter.
 
-NOTE: If running on battery power, it may take some time to connect and the LCD screen to come up.
+NOTE: If running on battery power, it may take some time to connect and for the LCD screen to come up.
 
 A web page should come up.
 
